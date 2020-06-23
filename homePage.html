@@ -13,9 +13,67 @@
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="Css/navbar.css">
 		<link rel="stylesheet" href="Css/homePage.css" />
 	</head>
 	<body>
+		<header>
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="index.html"
+						><img src="/Images/navicon.svg" alt="Nav icon"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<!-- <span class="navbar-toggler-icon"></span> -->
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</button>
+	
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav d-flex align-items-center ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#"
+									>Home <span class="sr-only">(current)</span></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Service</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									><img src="/Images/phone.svg" alt="phone icon" class="mr-1" />
+									Speak to a pharmacist</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sign up</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><button>Login</button></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									><img src="/Images/searchicon.svg" alt="search icon"
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<main>
 			<section class="py-4">
 				<div class="container">
@@ -30,20 +88,20 @@
 
 							<form>
 								<div class="form-row align-items-center py-3">
-									<div class="col-12 col-sm-8">
+									<div class="col-12 col-sm-8 col-md-6">
 										<label class="sr-only" for="inlineFormInputGroup"
 											>Username</label
 										>
 										<div class="input-group mb-2">
 											<input
 												type="text"
-												class="form-control py-4"
+												class="form-control"
 												id="inlineFormInputGroup"
 												placeholder="Email Address"
 											/>
 										</div>
 									</div>
-									<div class="col-12 col-sm-4">
+									<div class="col-12 col-sm-4 col-md-6">
 										<button
 											type="submit"
 											class="btn btn-primary mb-2 py-3 px-5"
@@ -61,10 +119,10 @@
 
 			<section class="color-black py-5">
 				<div class="container">
-					<div class="row flex-md-row-reverse">
-						<div class="col-12 col-md-6">
+					<div class="row flex-md-row-reverse pr-lg-5">
+						<div class="col-12 col-md-6 pl-lg-5 pr-lg-5">
 							<h2 class="text-capitalize heading">About pharMed</h2>
-							<p>
+							<p class="pr-lg-5 mb-lg-3">
 								We are a pharmaceutical consulting company located in USA, a
 								team of professionals always available to respond to your calls
 							</p>
@@ -72,7 +130,7 @@
 								href="#"
 								target="_blank"
 								rel="noopener noreferrer"
-								class="btn btn-primary p-3"
+								class="btn btn-primary p-3 mt-lg-3 ml-lg-5"
 								>Read more</a
 							>
 						</div>
@@ -89,7 +147,7 @@
 						<h2 class="col-12 text-uppercase heading text-center py-3">
 							what we do
 						</h2>
-						<div class="card-group px-4">
+						<div class="card-deck px-4">
 							<div class="card border-0">
 								<img
 									src="Images/notepad-icon.png"
@@ -111,7 +169,7 @@
 									alt="..."
 								/>
 								<div class="card-body text-center">
-									<h3 class="card-title heading text-capitalize card__heading">find drugs</h3>
+									<h3 class="card-title heading text-capitalize card__heading mt-md-3">find drugs</h3>
 									<p class="card-text">
 										You can find your quality drugs with their respective
 										details here.
@@ -125,16 +183,13 @@
 									alt="..."
 								/>
 								<div class="card-body text-center">
-									<h3 class="card-title heading text-capitalize card__heading">Card title</h3>
+									<h3 class="card-title heading text-capitalize card__heading">nearby pharmacies</h3>
 									<p class="card-text">
 										Find the pharmacy nearest to you
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-4"></div>
-						<div class="col-4"></div>
-						<div class="col-4"></div>
 					</div>
 				</div>
 			</section>
@@ -182,7 +237,74 @@
           </div>
 				</div>
 			</section>
+
+			<section class="bg-image__container bg-contact__section">
+				<div class="container">
+					<div class="row contact-info">
+						<h2 class="heading color-white col-12 py-3 mt-md-5">Get the latest news about our products</h2>
+						<form class="form-inline col-12 row justify-content-center py-4">
+							<label class="sr-only" for="inlineFormInputName2">Name</label>
+							<input type="text" class="form-control mb-2 mr-sm-2 col-6 ml-2 py-4" id="inlineFormInputName2" placeholder="Jane Doe">
+							<button type="submit" class="btn btn-primary mb-2 col-5 ml-2">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
 		</main>
+
+		<!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row pt-5 pb-5">
+          <div class="latest-news col-lg-4">
+            <p>Get the latest news on health and well-being</p>
+            <div class="footer-form d-flex justify-content-between mb-4">
+              <input type="email" name="email" id="footer-email" placeholder="Email Address">
+              <button>SUBSCRIBE</button>
+            </div>
+            <p class="mb-1">Trenton Atlantic City New Jersey USA</p>
+            <p class="mb-1">+1 234 567 890</p>
+            <p class="mb-1">info@pharmed.com</p>
+          </div>
+          <div class="pharm-group col-lg-4 text-center mb-4">
+            <img class="mt-4" src="/Images/pharmmed.svg" alt="PharMed Icon">
+            <p class="mt-4">A Pharm group company</p>
+          </div>
+          <div class="company-services col-lg-4 d-flex justify-content-between">
+            <div>
+              <ul>
+                <li>COMPANY</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms And Conditions</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>SERVICES</li>
+                <li><a href="#">Speak to a pharmacist</a></li>
+                <li><a href="#">Find Drugs</a></li>
+                <li><a href="#">Find a pharmacy</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-icons-copyright text-center p-3">
+        <div class="copyright mb-2">
+          2020 Pharmed
+        </div>
+        <div class="social-icons">
+          <a href="#"><img class="mr-4" src="/Images/facebookicon.svg" alt="facebook icon"></a>
+          <a href="#"><img class="mr-4" src="/Images/twittericon.svg" alt="twiter icon"></a>    
+          <a href="#"><img class="mr-4" src="/Images/instagramicon.svg" alt="instagram icon"></a>
+          <a href="#"><img class="mr-4" src="/Images/youtubeicon.svg" alt="youtube icon"></a>
+        </div>
+      </div>
+    </footer>
 
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
