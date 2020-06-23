@@ -73,15 +73,15 @@ a {
 }
 
 .hero__image {
-	background-image: url('/Images/pharmacyImage1.jpg');
+	background-image: url('../Images/pharmacyImage1.jpg');
 }
 
 .about-image__container {
-	background-image: url('/Images/pharmacyImage1.jpg');
+	background-image: url('../Images/pharmacyImage1.jpg');
 }
 
 .bg-contact__section {
-	background-image: url('/Images/contact-bg.jpg');
+	background-image: url('../Images/contact-bg.jpg');
 	min-height: 4.5rem;
 	background-size: cover;
 	box-shadow: inset 0px 0px 0 200rem rgba(0, 0, 128, 0.8);
