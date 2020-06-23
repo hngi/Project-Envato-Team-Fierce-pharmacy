@@ -1,213 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Pharmacy | Contact Us</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Css/navbar.css" />
-    <link rel="stylesheet" href="Css/styles.css" />
     <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-      media="screen and (max-width: 500px)"
-      href="Css/mobile.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><img src="/Images/navicon.svg" alt="Nav icon"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </button>
+    <!-- page css -->
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container mb-3">
+            <nav class="navbar navbar-expand-md">
+                <!-- Brand -->
+                <a href="#" class="navbar-brand p-xl-5">
+                    <img src="./about-images/line.png" class="img-fluid smaller-line" alt="line">
+                    <img src="./about-images/larger-line.png" alt="line" class="img-fluid larger-line">
+                    <img src="./about-images/pharmed.png" class="img-fluid logo-name smaller-icon" alt="logo">
+                    <img src="./about-images/larger-icon.png" alt="logo" class="img-fluid larger-icon">
+                </a>
+                <!-- Button -->
+                <button class="navbar-toggler" type="button"
+                data-toggle='collapse'
+                data-target='#collapsibleNavbar'>
+                <i class="fa fa-bars"></i>
+                </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav d-flex align-items-center ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><img src="/Images/phone.svg" alt="phone icon" class="mr-1" />
-                Speak to a pharmacist</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><button>Login</button></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><img src="/Images/searchicon.svg" alt="search icon"
-              /></a>
-            </li>
-          </ul>
+                 <!-- Navbar links -->
+                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                     <ul class="navbar-nav bg-light p-5 p-md-0 pt-xl-3">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link pr-md-2 pr-lg-3 pr-xl-5 home-link">Home</a>
+                         </li>
+                         <li class="nav-item">
+                            <a href="#" class="nav-link pr-md-2 pr-lg-3 pr-xl-5">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link pr-md-2 pr-lg-3 pr-xl-5" id="nav-active">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link pr-md-2 pr-lg-3 pr-xl-5">
+                                <img src="./about-images/phone.png" class="img-fluid p-1" alt="phone">
+                                Speak to a pharmacist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="signup pr-md-2 pr-lg-3 pr-xl-4">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn mt-3 mt-xl-0 text-white login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="search pr-xl-4">
+                                <img src="./about-images/search-icon.png" alt="search" class="img-fluid">
+                            </a>
+                        </li>
+                     </ul>
+                 </div>
+            </nav>
         </div>
-      </div>
-    </nav>
+    </header>
+    <!-- Header end -->
+    <!-- Landing Image -->
+    <div class="landing-image mx-auto">
+        <img src="./about-images/landing-image.png" class="img-fluid smaller-landing-image" alt="landing">
+        <img src="./about-images/larger-landing-image.png" class="img-fluid larger-landing-image" alt="landing">
+        <p>About PharMed</p>
+    </div>
 
-    <!-- Showcase section -->
-    <section class="showcase d-flex flex-column align-items-center">
-      <div>
-        <h1>CONTACT US</h1>
-        <p>We would love to hear from you</p>
-      </div>
-    </section>
+    <!-- Description -->
+    <div class="container desc text-center mx-auto">
+        <h4 class="font-weight-bold">Welcome to PharMed!</h4>
+        <p>We are a biopharmaceutical company focused on the discovery, development and commercialization of innovative therapies intended to improve outcomes in patients sufferings. Founded in February 2008. Armed with a well-thought-out plan, a passion to make a difference in healthcare delivery in America.</p>
+    </div>
 
-    <!-- Contact Form and Info -->
-    <section class="form-info container mt-5">
-      <div class="row">
-        <div class="form col-md-8">
-          <h3>Contact Form</h3>
-          <form>
-            <div>
-              <input type="text" name="name" id="name" placeholder="Name" />
-            </div>
-            <div>
-              <input type="email" name="email" id="email" placeholder="Email" />
-            </div>
-            <div>
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                placeholder="Phone Number"
-              />
-            </div>
-            <div>
-              <textarea name="message" id="message" placeholder="Message"></textarea>
-            </div>
-            <button>SEND MESSAGE</button>
-          </form>
-        </div>
-        <div class="info col-md-4">
-          <h3>Contact Info.</h3>
-          <div><img class="mr-2" src="/Images/location_on_24px.svg" alt="location icon"> Trenton Atlantic City New Jersey USA</div>
-          <div><img class="mr-2" src="/Images/call_24px.svg" alt="call icon"> +1 234 567 890</div>
-          <div><img class="mr-2" src="/Images/mail_outline_24px.svg" alt="mail icon"> info@pharmed.com</div>
-        </div>
-      </div>
-    </section>
+    <!-- Team -->
+    <div class="container-fluid team text-center mx-auto">
+        <p class="pt-4 pb-3">Our Team</p>
+        <div class="team-images mx-auto row">
+            <div class="team-1 mb-5 col-sm-5 col-md-3 col-xl-3">
+                <img src="./about-images/team1.png" class="img-fluid image-1" alt="team">
+                <div class="img-desc text-left">
+                    <p class="pl-2 pl-sm-1 pt-3 pb-1">John Doe</p>
+                    <p class="p-1 pl-sm-1 pb-md-2">Senior Pharmacist</p>
 
-    <!-- Google Map section -->
-    <div id="map" class="container mt-4"></div>
+                    <div class="icons">
+                        <img src="./about-images/email-icon.png" class="img-fluid pr-sm-2 pr-lg-2" alt="icon">
+                        <img src="./about-images/ig-icon.png" class="img-fluid" alt="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="team-1 mb-5 col-sm-5 col-md-3 col-xl-3">
+                <img src="./about-images/team2.png" class="img-fluid image-1" alt="team">
+                <div class="img-desc text-left">
+                    <p class="pl-2 pl-sm-1 pt-3 pb-1">Khan Doe</p>
+                    <p class="p-1 pl-sm-1 pb-md-2">Pharmacist</p>
 
-    <!-- Footer section -->
-    <footer class="footer mt-4">
-      <div class="container">
-        <div class="row pt-5 pb-5">
-          <div class="latest-news col-lg-4">
-            <p>Get the latest news on health and well-being</p>
-            <div class="footer-form d-flex justify-content-between mb-4">
-              <input type="email" name="email" id="footer-email" placeholder="Email Address">
-              <button>SUBSCRIBE</button>
+                    <div class="icons">
+                        <img src="./about-images/email-icon.png" class="img-fluid pr-sm-2 pr-lg-2" alt="icon">
+                        <img src="./about-images/ig-icon.png" class="img-fluid" alt="icon">
+                    </div>
+                </div>
             </div>
-            <p class="mb-1">Trenton Atlantic City New Jersey USA</p>
-            <p class="mb-1">+1 234 567 890</p>
-            <p class="mb-1">info@pharmed.com</p>
-          </div>
-          <div class="pharm-group col-lg-4 text-center mb-4">
-            <img class="mt-4" src="/Images/pharmmed.svg" alt="PharMed Icon">
-            <p class="mt-4">A Pharm group company</p>
-          </div>
-          <div class="company-services col-lg-4 d-flex justify-content-between">
-            <div>
-              <ul>
-                <li>COMPANY</li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Terms And Conditions</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li>SERVICES</li>
-                <li><a href="#">Speak to a pharmacist</a></li>
-                <li><a href="#">Find Drugs</a></li>
-                <li><a href="#">Find a pharmacy</a></li>
-                <li><a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="social-icons-copyright text-center p-3">
-        <div class="copyright mb-2">
-          2020 Pharmed
-        </div>
-        <div class="social-icons">
-          <a href="#"><img class="mr-4" src="/Images/facebookicon.svg" alt="facebook icon"></a>
-          <a href="#"><img class="mr-4" src="/Images/twittericon.svg" alt="twiter icon"></a>    
-          <a href="#"><img class="mr-4" src="/Images/instagramicon.svg" alt="instagram icon"></a>
-          <a href="#"><img class="mr-4" src="/Images/youtubeicon.svg" alt="youtube icon"></a>
-        </div>
-      </div>
-    </footer>
+            <div class="team-1 mb-5 last-team-member col-sm-5 col-md-3 col-xl-3">
+                <img src="./about-images/team-3.png" class="img-fluid image-1" alt="team">
+                <div class="img-desc text-left">
+                    <p class="pl-2 pl-sm-1 pt-3 pb-1">Randy Mah</p>
+                    <p class="p-1 pl-sm-1 pb-md-2">Pharmacist</p>
 
+                    <div class="icons">
+                        <img src="./about-images/email-icon.png" class="img-fluid pr-sm-2 pr-lg-2" alt="icon">
+                        <img src="./about-images/ig-icon.png" class="img-fluid" alt="icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customers -->
+    <div class="container-fluid customers text-center mx-auto">
+        <p class="pt-4">Our Customers</p>
+        <div class="customer-images mx-auto row justify-content-center">
+            <div class="customer-1 first col-lg-6 col-xl-3">
+                <img src="./about-images/customer1.png" alt="customer" class="img-fluid">
+                <div class="customer-desc">
+                    <p>Their customer service is top notch, I was attended to in 5 minutes, very efficient.I recommend their services.</p>
+                    <div class="customer-det text-left p-3">
+                        <p class="pb-3">Joe Dennis</p>
+                        <p class="pt-3" id="override-customer">Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-1 customer-2 col-lg-6 col-xl-3">
+                <img src="./about-images/customer2.png" alt="customer" class="img-fluid">
+                <div class="customer-desc desc-2">
+                    <p>Their customer service is top notch, I was attended to in 5 minutes, very efficient.I recommend their services.</p>
+                    <div class="customer-det text-left p-3">
+                        <p class="pb-3">Dominique Chez</p>
+                        <p class="pt-3" id="override-customer">Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-1 customer-3 col-lg-6 col-xl-3">
+                <img src="./about-images/customer3.png" alt="customer" class="img-fluid">
+                <div class="customer-desc desc-3">
+                    <p>Their customer service is top notch, I was attended to in 5 minutes, very efficient.I recommend their services.</p>
+                    <div class="customer-det text-left p-3">
+                        <p class="pb-3">Mark Kart</p>
+                        <p class="pt-3" id="override-customer">Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Values -->
+     <div class="container-fluid values text-center mx-auto">
+         <p class="pt-4">Our Values</p>
+         <div class="bsn-values row">
+         <div class="value-1 top-value col-sm-6 col-xl-3">
+             <img src="./about-images/value1.png" alt="value" class="img-fluid">
+             <div class="values-desc mx-auto">
+                 <p>Customer Satisfaction</p>
+                 Our staff are friendly and eager to help you get the best out of your visit
+             </div>
+         </div>
+         <div class="value-1 top-value col-sm-6 col-xl-3">
+            <img src="./about-images/value2.png" alt="value" class="img-fluid">
+            <div class="values-desc mx-auto">
+                <p>Affordability</p>
+                We work hard to bring you the best prices for our health care services
+            </div>
+        </div>
+            <div class="value-1 top-value col-sm-6 col-xl-3">
+                <img src="./about-images/value3.png" alt="value" class="img-fluid">
+                <div class="values-desc mx-auto">
+                    <p>Convenient</p>
+                    We provide extended hours for busy working people
+                </div>
+            </div>
+            <div class="value-1 top-value bottom-value col-sm-6 col-xl-3">
+                <img src="./about-images/value4.png" alt="value" class="img-fluid">
+                <div class="values-desc mx-auto">
+                    <p>Reduced wait times</p>
+                    We provide quick response to decrease time wasted waiting
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Footer -->
+     <footer>
+         <div class="container-fluid">
+         <div class="row footer-row">
+             <div class="info text-center col-12 col-sm-6 col-xl-3">
+                 <p>Get the latest news on health and well-being</p>
+                 <div class="info-input d-flex">
+                 <input type="text" name="email" placeholder="Email Address" id='email'>
+                 <button class="btn">Subscribe</button>
+                </div>
+                <div class="address text-left">
+                    Trenton Atlantic City New Jersey USA</br>
+                    +1 234 567 890</br> 
+                    info@pharmed.com</br>
+                </div>
+             </div>
+             <div class="logo col-12 col-sm-6 col-xl-3">
+                 <div class="logo-image mx-auto">
+                 <img src="./about-images/logo2.png" alt="logo" class="logo-line">
+                 <img src="./about-images/logo-name2.png" alt="logo-name" class="img-fluid logo-name-2">
+                </div>
+                 <div class="p-2 logo-text">A Pharm group company</div>
+             </div>
+             <div class="company list col-6 col-xl-3">
+                 <ul>
+                     <li>Home</li>
+                     <li>About</li>
+                     <li>FAQ</li>
+                     <li>Contact Us</li>
+                     <li>Terms and conditions</li>
+                 </ul>
+             </div>
+             <div class="services list col-6 col-xl-3">
+                <ul>
+                    <li>Speak to a pharmacist</li>
+                    <li>Find drugs</li>
+                    <li>Find a pharmacy</li>
+                    <li>Privacy policy</li>
+                </ul>
+            </div>
+         </div>
+         <div class="row">
+             <div class="bottom-footer col-12">
+                 <div class="icons">
+                 <img src="./about-images/Facebook.png" alt="facebook" class="img-fluid p-3 pl-xl-5">
+                 <img src="./about-images/Twitter.png" alt="Twitter" class="img-fluid p-3 pl-xl-5">
+                 <img src="./about-images/Instagram.png" alt="Instagram" class="img-fluid p-3 pl-xl-5">
+                 <img src="./about-images/YouTube.png" alt="YouTube" class="img-fluid p-3 pl-xl-5">
+                </div>
+                <div class="year">2020, pharmMed</div>
+             </div>
+         </div>
+        </div>
+     </footer>
+    <!-- Script start -->
+    <script src="./js/faq.js"></script>
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Google map setup -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmZaOu7Lr2xaPxDzR6MNWlZG6e4JE_eAU&callback=initMap&libraries=&v=weekly"
-      defer></script>
-    <script>
-      var map;
-        function initMap() {
-          map = new google.maps.Map(document.getElementById("map"), {
-            center: { lat: -34.397, lng: 150.644 },
-            zoom: 8
-          });
-        }
-    </script>
-  </body>
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Script end -->
+</body>
 </html>
-
