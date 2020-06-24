@@ -43,9 +43,11 @@ footer a {
     left: 0;
     z-index: -1;
 }
-.values{
-    height: 100bh;
+
+.max-width-set {
+    max-width: 1140px;
 }
+
 
 @media all and (max-width: 375px) {
     /* Team */
@@ -61,13 +63,6 @@ footer a {
         margin-left: 0 !important;
         position: relative !important;
         left: 70% !important;
-        transform: translateX(-50%) !important;
-    }
-
-    /* Footer */
-    #first-list {
-        position: relative !important;
-        left: 24% !important;
         transform: translateX(-50%) !important;
     }
 }
@@ -116,29 +111,6 @@ footer a {
     .customers .customer-desc {
         position: absolute;
         left: -4px !important;
-    }
-
-    /* Footer */
-    .info input{
-        margin-left: 4px !important;
-    }
-
-    .address {
-        margin-left: 4px !important;
-    }
-
-    #logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 70%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    #first-list {
-        position: relative;
-        left: 29%;
-        transform: translateX(-50%);
     }
 
 }
@@ -371,118 +343,11 @@ footer a {
         padding-bottom: 43px;
     }
 
-    /* Values */
-    footer {
+    /* Footer */
+    .latestNews,
+    .footer_top {
         position: relative;
         top: 1280px;
-    }
-
-    .footer-row {
-        position: relative;
-        background-color:#000000;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .footer-row p {
-        margin-top: 43px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .info input{
-        margin-left: 10px;
-        width: 223px;
-        border: 1px solid #BCE0FD;
-        background: transparent;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .info button {
-       margin-left: 21px;
-       width: 107px;
-       background: #4D4DFF;
-       font-size: 14px;
-       color: #FFFFFF;
-       line-height: 21px;
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .address {
-        margin-left: 10px;
-        margin-top: 24px;
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        margin-top: 40.87px;
-    }
-
-    .logo-image {
-        position: relative;
-    }
-
-    .logo-line {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
- 
-    }
-
-    .logo-name-2 {
-        position: absolute;
-        left: 49%;
-        right: 1.24%;
-        top: 65%;
-    }
-
-    .logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 80%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    .list ul {
-        position: relative;
-        left: 38%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    /* .services ul {
-        position: relative;
-        left: 70%;
-        transform: translateX(-60%);
-        list-style: none;
-    } */
-
-    .list {
-        margin-top: 39px;
-        width: 155px;
-    }
-    /* Bottom of the footer */
-    .bottom-footer {
-        height: 85px;
-        background: #4D4DFF;
-    }
-
-    footer .icons {
-        display: flex;
-        justify-content: center;
-    }
-
-    .year {
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-        font-size: 12px;
     }
 }
 
@@ -712,120 +577,12 @@ footer a {
     .bottom-value {
         padding-bottom: 43px;
     }
-
-    /* Values */
-    footer {
+    
+    /* Footer */
+    .latestNews,
+    .footer_top {
         position: relative;
         top: 1442px;
-    }
-
-    .footer-row {
-        position: relative;
-        background-color:#000000;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .footer-row p {
-        margin-top: 43px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .info input{
-        margin-left: 10px;
-        width: 223px;
-        border: 1px solid #BCE0FD;
-        background: transparent;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .info button {
-       margin-left: 21px;
-       width: 107px;
-       background: #4D4DFF;
-       font-size: 14px;
-       color: #FFFFFF;
-       line-height: 21px;
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .address {
-        margin-left: 10px;
-        margin-top: 24px;
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        margin-top: 40.87px;
-    }
-
-    .logo-image {
-        position: relative;
-    }
-
-    .logo-line {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
- 
-    }
-
-    .logo-name-2 {
-        position: absolute;
-        left: 49%;
-        right: 1.24%;
-        top: 65%;
-    }
-
-    .logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 70%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    .list ul {
-        position: relative;
-        left: 41%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    .services ul {
-        position: relative;
-        left: 70%;
-        transform: translateX(-60%);
-        list-style: none;
-    }
-
-    .list {
-        margin-top: 39px;
-        width: 155px;
-    }
-    /* Bottom of the footer */
-    .bottom-footer {
-        height: 85px;
-        background: #4D4DFF;
-    }
-
-    .icons {
-        display: flex;
-        justify-content: center;
-    }
-
-    .year {
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-        font-size: 12px;
-        color: #FFFFFF;
     }
 }
 
@@ -1082,125 +839,11 @@ footer a {
         padding-bottom: 43px;
     }
 
-    /* Values */
-    footer {
+    /* Footer */
+    .latestNews,
+    .footer_top {
         position: relative;
         top: 958px;
-    }
-
-    .footer-row {
-        position: relative;
-        background-color:#000000;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-        padding-bottom: 40px;
-    }
-
-    .footer-row p {
-        margin-top: 43px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .info input{
-        margin-left: 10px;
-        width: 223px;
-        border: 1px solid #BCE0FD;
-        background: transparent;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .info button {
-       margin-left: 21px;
-       width: 107px;
-       background: #4D4DFF;
-       font-size: 14px;
-       color: #FFFFFF;
-       line-height: 21px;
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .address {
-        margin-left: 10px;
-        margin-top: 24px;
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        margin-top: 40.87px;
-    }
-
-    .logo-image {
-        position: relative;
-    }
-
-    .logo-line {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
- 
-    }
-
-    .logo-name-2 {
-        position: absolute;
-        left: 49%;
-        right: 1.24%;
-        top: 65%;
-    }
-
-    .logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 75%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    .list ul {
-        position: relative;
-        left: 43%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    .services ul {
-        position: relative;
-        left: 78%;
-        transform: translateX(-60%);
-        list-style: none;
-    }
-
-    .list {
-        margin-top: 39px;
-        width: 155px;
-    }
-    /* Bottom of the footer */
-    .bottom-footer {
-        height: 85px;
-        background: #4D4DFF;
-        color: #FFFFFF;
-    }
-
-    footer .icons {
-        position: absolute;
-        top: 17px;
-        right: 106px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .year {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 37px;
-        left: calc(50% - 87px/2 - 0.5px);
-        font-size: 12px;
     }
 }
 
@@ -1459,126 +1102,11 @@ footer a {
     .bottom-value {
         padding-bottom: 43px;
     }
-
-    /* Values */
-    footer {
+    /* Footer */
+    .latestNews,
+    .footer_top {
         position: relative;
         top: 958px;
-    }
-
-    .footer-row {
-        position: relative;
-        background-color:#000000;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-        padding-bottom: 40px;
-    }
-
-    .footer-row p {
-        margin-top: 43px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .info input{
-        margin-left: 10px;
-        width: 223px;
-        border: 1px solid #BCE0FD;
-        background: transparent;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .info button {
-       margin-left: 21px;
-       width: 107px;
-       background: #4D4DFF;
-       font-size: 14px;
-       color: #FFFFFF;
-       line-height: 21px;
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .address {
-        margin-left: 10px;
-        margin-top: 24px;
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        margin-top: 40.87px;
-    }
-
-    .logo-image {
-        position: relative;
-    }
-
-    .logo-line {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
- 
-    }
-
-    .logo-name-2 {
-        position: absolute;
-        left: 49%;
-        right: 1.24%;
-        top: 65%;
-    }
-
-    .logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 80%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    .list ul {
-        position: relative;
-        left: 45%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    .services ul {
-        position: relative;
-        left: 85%;
-        transform: translateX(-60%);
-        list-style: none;
-    }
-
-    .list {
-        margin-top: 39px;
-        width: 155px;
-    }
-    /* Bottom of the footer */
-    .bottom-footer {
-        height: 85px;
-        background: #4D4DFF;
-        color: #FFFFFF;
-    }
-
-    footer .icons {
-        position: absolute;
-        top: 17px;
-        right: 106px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .year {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 37px;
-        left: calc(50% - 87px/2 - 0.5px);
-        font-size: 12px;
     }
 }
 
@@ -1840,124 +1368,10 @@ footer a {
         padding-bottom: 43px;
     }
 
-    /* Values */
-    footer {
+    /* Footer */
+    .latestNews,
+    .footer_top {
         position: relative;
         top: 678px;
-    }
-
-    .footer-row {
-        position: relative;
-        background-color:#000000;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-        padding-bottom: 40px;
-    }
-
-    .footer-row p {
-        margin-top: 43px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .info input{
-        margin-left: 10px;
-        width: 223px;
-        border: 1px solid #BCE0FD;
-        background: transparent;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .info button {
-       margin-left: 21px;
-       width: 107px;
-       background: #4D4DFF;
-       font-size: 14px;
-       color: #FFFFFF;
-       line-height: 21px;
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .address {
-        margin-left: 10px;
-        margin-top: 24px;
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        margin-top: 40.87px;
-    }
-
-    .logo-image {
-        position: relative;
-    }
-
-    .logo-line {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
- 
-    }
-
-    .logo-name-2 {
-        position: absolute;
-        left: 49%;
-        right: 1.24%;
-        top: 65%;
-    }
-
-    .logo-text {
-        margin-left: 0;
-        position: relative;
-        left: 75%;
-        transform: translateX(-50%);
-    }
-
-    /* Footer */
-    .list ul {
-        position: relative;
-        left: 55%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    .services ul {
-        position: relative;
-        left: 55%;
-        transform: translateX(-50%);
-        list-style: none;
-    }
-
-    .list {
-        margin-top: 39px;
-        width: 155px;
-    }
-    /* Bottom of the footer */
-    .bottom-footer {
-        height: 85px;
-        background: #4D4DFF;
-        color: #FFFFFF;
-    }
-
-    footer .icons {
-        position: absolute;
-        top: 17px;
-        right: 106px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .year {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 37px;
-        left: calc(50% - 87px/2 - 0.5px);
-        font-size: 12px;
     }
 }
