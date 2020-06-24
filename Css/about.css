@@ -52,8 +52,18 @@ a {
         left: -1px;
     }
 
-    .logo-text {
-        margin-left: 67px !important;
+    #logo-text {
+        margin-left: 0 !important;
+        position: relative !important;
+        left: 70% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    /* Footer */
+    #first-list {
+        position: relative !important;
+        left: 24% !important;
+        transform: translateX(-50%) !important;
     }
 }
 
@@ -112,8 +122,18 @@ a {
         margin-left: 4px !important;
     }
 
-    .logo-text {
-        margin-left: 97px !important;
+    #logo-text {
+        margin-left: 0;
+        position: relative;
+        left: 70%;
+        transform: translateX(-50%);
+    }
+
+    /* Footer */
+    #first-list {
+        position: relative;
+        left: 29%;
+        transform: translateX(-50%);
     }
 
 }
@@ -417,12 +437,26 @@ a {
     }
 
     .logo-text {
-        margin-left: 64px;
+        margin-left: 0;
+        position: relative;
+        left: 80%;
+        transform: translateX(-50%);
     }
 
+    /* Footer */
     .list ul {
+        position: relative;
+        left: 38%;
+        transform: translateX(-50%);
         list-style: none;
     }
+
+    /* .services ul {
+        position: relative;
+        left: 70%;
+        transform: translateX(-60%);
+        list-style: none;
+    } */
 
     .list {
         margin-top: 39px;
@@ -745,10 +779,24 @@ a {
     }
 
     .logo-text {
-        margin-left: 94px;
+        margin-left: 0;
+        position: relative;
+        left: 70%;
+        transform: translateX(-50%);
     }
 
+    /* Footer */
     .list ul {
+        position: relative;
+        left: 41%;
+        transform: translateX(-50%);
+        list-style: none;
+    }
+
+    .services ul {
+        position: relative;
+        left: 70%;
+        transform: translateX(-60%);
         list-style: none;
     }
 
@@ -1100,10 +1148,24 @@ a {
     }
 
     .logo-text {
-        margin-left: 124px;
+        margin-left: 0;
+        position: relative;
+        left: 75%;
+        transform: translateX(-50%);
     }
 
+    /* Footer */
     .list ul {
+        position: relative;
+        left: 43%;
+        transform: translateX(-50%);
+        list-style: none;
+    }
+
+    .services ul {
+        position: relative;
+        left: 78%;
+        transform: translateX(-60%);
         list-style: none;
     }
 
@@ -1461,10 +1523,24 @@ a {
     }
 
     .logo-text {
-        margin-left: 174px;
+        margin-left: 0;
+        position: relative;
+        left: 80%;
+        transform: translateX(-50%);
     }
 
+    /* Footer */
     .list ul {
+        position: relative;
+        left: 45%;
+        transform: translateX(-50%);
+        list-style: none;
+    }
+
+    .services ul {
+        position: relative;
+        left: 85%;
+        transform: translateX(-60%);
         list-style: none;
     }
 
@@ -1821,10 +1897,24 @@ a {
     }
 
     .logo-text {
-        margin-left: 124px;
+        margin-left: 0;
+        position: relative;
+        left: 75%;
+        transform: translateX(-50%);
     }
 
+    /* Footer */
     .list ul {
+        position: relative;
+        left: 55%;
+        transform: translateX(-50%);
+        list-style: none;
+    }
+
+    .services ul {
+        position: relative;
+        left: 55%;
+        transform: translateX(-50%);
         list-style: none;
     }
 
