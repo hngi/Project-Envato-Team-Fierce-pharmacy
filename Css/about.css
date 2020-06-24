@@ -32,6 +32,11 @@ a {
     color: #000000
 }
 
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .landing-image {
     position: absolute;
     top: 0;
@@ -836,14 +841,26 @@ a {
         top: 0;
         left: 0;
         height: 78px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 18px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
     }
 
     .navbar-nav {
         background: #FFFFFF !important;
-        position: absolute;
-        right: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
     }
 
     .smaller-line, 
@@ -858,20 +875,9 @@ a {
         right: 1.24%;
     }
 
-    .signup {
-        position: relative;
-        top: 9px;
-    }
-
-    .login{
-        position: relative;
-        top: 3px;
-        margin-top: 0 !important;
-        left: 8px;
-    }
-
+    .signup,
     .search {
-        display: none;
+        margin-top: 10px;
     }
 
 
@@ -1211,14 +1217,27 @@ a {
         top: 0;
         left: 0;
         height: 118px;
-        font-size: 16px;
+        font-size: 19px;
+        font-weight: 600;
         line-height: 24px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
     }
 
     .navbar-nav {
         background: #FFFFFF !important;
-        position: absolute;
-        right: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
     }
 
     .smaller-line, 
@@ -1233,20 +1252,10 @@ a {
         right: 1.24%;
     }
 
-    .signup {
-        position: relative;
-        top: 9px;
-    }
-
-    .login{
-        position: relative;
-        top: 3px;
-        margin-top: 0 !important;
-        left: 15px;
-    }
-
+    .login,
+    .signup,
     .search {
-        display: none;
+       margin-top: 9px !important;
     }
 
 
@@ -1586,14 +1595,27 @@ a {
         top: 0;
         left: 0;
         height: 118px;
-        font-size: 18px;
+        font-size: 21px;
+        font-weight: 600;
         line-height: 27px;
+    }
+
+    /* Inherited styles from drugDetail */
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
     }
 
     .navbar-nav {
         background: #FFFFFF !important;
-        position: absolute;
-        right: 106px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
     }
 
     .smaller-line, 
@@ -1608,16 +1630,9 @@ a {
         right: 1.24%;
     }
 
-    .signup {
-        position: relative;
-        top: 9px;
-        left: -2px;
-    }
-
+    .signup, .login,
     .search {
-        position: relative;
-        top: 9px;
-        left: 29px;
+        margin-top: 9px;
     }
 
 
